@@ -158,3 +158,12 @@ function obtener_dia($dia) {
     }
     return 'ERROR';
 }
+
+function formatear_sexo ($sexo_id)
+{
+    switch ($sexo_id) {
+        case 3: return 'Mujer';
+        case 7: return 'Hombre';
+    }
+    return 'Indefinido';
+}

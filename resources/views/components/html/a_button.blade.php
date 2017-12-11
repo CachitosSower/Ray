@@ -1,0 +1,1 @@
+<a href="{{ $href }}" class="btn btn-{{ $type }} {{ $extra_class }}" role="button">{{ $title }}</a>
